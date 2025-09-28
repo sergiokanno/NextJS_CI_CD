@@ -1,0 +1,20 @@
+{
+  "name": "NextJS_CI_CD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sergiokanno/NextJS_CI_CD.git",
+  "author": "Windows (Sergio Kanno) <sergio.kanno@outlook.com.br>",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.5.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "rm -rf build && next build && mv ./out ./build",
+    "executa": "next .",
+    "start": "next start",
+    "lint": "next lint"  
+  }
+}
