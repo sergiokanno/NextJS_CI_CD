@@ -14,10 +14,12 @@
   },
   "scripts": {
     "dev": "next dev",
-    "build": "rm -rf build && next build && mv ./out ./build",
+    "build": "rm -rf ./build && next build && mv ./out ./build",
     "executa": "next .",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "deploy:prod": "yarn build && vercel ./build --confirm --no-clipboard --token=$VERCEL_TOKEN --prod"
   },
   "devDependencies": {
     "eslint": "^9",
