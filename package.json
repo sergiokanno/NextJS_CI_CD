@@ -1,6 +1,5 @@
 {
   "name": "NextJS_CI_CD",
-  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/sergiokanno/NextJS_CI_CD.git",
